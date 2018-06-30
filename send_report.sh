@@ -8,7 +8,7 @@ HTML_FILE=${SRC_FILE/ipynb/html}
 REMOVE="rm PATH"
 REMOVE=${REMOVE/PATH/$HTML_FILE}
 eval $REMOVE
-CONVERT='/home/ubuntu/.local/bin/jupyter nbconvert --execute --to html --TemplateExporter.exclude_input=True SRC'
+CONVERT='jupyter nbconvert --execute --to html --TemplateExporter.exclude_input=True SRC'
 CONVERT=${CONVERT/SRC/$SRC_FILE}
 eval $CONVERT
 export AWS_ACCESS_KEY_ID=블라블라
