@@ -1,4 +1,7 @@
 #! /bin/bash
+#echo $PATH > /tmp/path.cron
+
+
 DATE=$(date +"%Y_%m_%d_%M")
 SRC_FILE='/절대경로/weekly_report.ipynb'
 HTML_FILE=${SRC_FILE/ipynb/html}
