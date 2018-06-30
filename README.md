@@ -12,6 +12,7 @@ jupyter notebook 으로 만든 보고서를 HTML파일로 뽑아서 s3에 업로
 * 경로 : 업로드 할 s3 key 값
 * 버킷이름 : s3 버킷명
 * S3연결해둔도메인 : S3연결해둔도메인
+* 슬랙웹훅URL : 슬랙웹훅URL
 
 #### aws cli 필요
 
